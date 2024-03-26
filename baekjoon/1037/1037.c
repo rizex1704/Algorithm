@@ -15,7 +15,7 @@ int main(void)
         if(a<max)
         max=a;
     }
-    printf("%lld",max*min);
+    printf("%lld\n",max*min);
 
     return 0;
 }
