@@ -8,7 +8,4 @@ int main(void)
     printf("입력한 정수:%d",num);
 
     return 0;
-
-
-    
 }
