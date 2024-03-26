@@ -10,5 +10,4 @@ int main(void)
     printf("long long int 자료형의 크기:%ld바이트\n",sizeof(long long int));
     printf("unsigned 자료형의 크기:%ld바이트",sizeof(unsigned int));
     return 0;
-
 }
