@@ -9,11 +9,14 @@ int main(void)
     {
         printf("입력한 값은 양수\n");
     }
-    else if(n=0)
+    else if(n<0)
+    {
+        printf("입력한 값은 음수\n");
+    }
+    else
     {
         printf("입력한 값은 0\n");
     }
-    else
     
     return 0;
 }
