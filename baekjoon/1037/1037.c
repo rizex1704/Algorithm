@@ -12,9 +12,9 @@ int main(void)
         scanf("%d", &a);
         
         if(a>max)   //그중 최대 최소 찾음
-        min=a;
-        if(a<min)
         max=a;
+        if(a<min)
+        min=a;
     }
     printf("%lld\n",max*min);
 
