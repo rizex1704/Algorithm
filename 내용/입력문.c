@@ -2,9 +2,9 @@
 
 int main(void)
 {
-    int num;
-    scanf("%d",&num);
-    printf("%d",num);
+    int a=0;
+    scanf("%d",&a);
+    printf("%d",a);
 
     return 0;
 }
