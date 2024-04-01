@@ -2,7 +2,7 @@
 int main(void)
 {
     int a;  //약수
-    long long min=0,max=1000001;    //최대 최소
+    long long max=0,min=1000001;    //최대 최소
 
     int noa;    //약수의 개수
     scanf("%d", &noa);
@@ -11,9 +11,9 @@ int main(void)
     {
         scanf("%d", &a);
         
-        if(a>min)   //그중 최대 최소 찾음
+        if(a>max)   //그중 최대 최소 찾음
         min=a;
-        if(a<max)
+        if(a<min)
         max=a;
     }
     printf("%lld\n",max*min);
